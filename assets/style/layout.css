@@ -1,4 +1,24 @@
 @import url("../css/global/style.css");
+.course-program .course-program-top {
+  display: flex;
+  gap: 40px;
+}
+.course-program .box {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.course-program i {
+}
+.course-program .box span {
+  font-size: 14px;
+}
+.course-program-bottom {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+
 /* talet  992px-dən 1279px- */
 .header .wrapper {
   padding: 22px 0;
