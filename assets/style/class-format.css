@@ -54,9 +54,6 @@ p.thr{
     flex-direction: row;
 }
 .content-wrapper-element{
-    /*
     margin-right: 7.0625rem;
     margin-left: 7.625rem;
-    */
-    margin: auto;
 }
