@@ -1,5 +1,5 @@
 @import url("../css/global/font.css");
-ul{
+.wrapper ul{
     list-style: disc;
     width: 41.375rem;
     height: 23.375rem;
@@ -11,7 +11,7 @@ ul{
     line-height: 150%; /* 2.25rem */
     margin-left: 1.0625rem;
 }
-h1{
+.wrapper h2{
     width: 41.6875rem;
     height: 5.8125rem;
     color: #000;
