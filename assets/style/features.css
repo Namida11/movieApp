@@ -1,0 +1,23 @@
+@import url("../css/global/font.css");
+ul{
+    list-style: disc;
+    width: 41.375rem;
+    height: 23.375rem;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.25rem */
+    margin-left: 1.0625rem;
+}
+h1{
+    width: 41.6875rem;
+    height: 5.8125rem;
+    color: #000;
+    font-size: 3.4375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%; /* 3.4851rem */
+    margin-bottom: 5.5625rem;
+}
