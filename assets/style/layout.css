@@ -1,4 +1,9 @@
 @import url("../css/global/style.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .course-program .course-program-top {
   display: flex;
   gap: 40px;
