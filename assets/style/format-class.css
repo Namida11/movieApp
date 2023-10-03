@@ -1,0 +1,62 @@
+@import url("../css/global/font.css");
+ul{
+    list-style: disc;
+    list-style: inside;
+    width: 662px;
+    height: 374px;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+h1{
+    width: 667px;
+    height: 93px;
+    color: #000;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%; /* 55.762px */
+    margin-bottom: 89px;
+}
+h3{
+    width: 150px;
+    height: 39px;
+    color: #1E4681;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 32.5px */
+}
+h3.ex{
+    width: 214px;
+}
+p{
+    width: 223px;
+    height: 39px;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+}
+p.sec{
+    width: 271px;
+    height: 109px;
+}
+p.thr{
+    width: 245px;
+}
+.content-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.content-wrapper-element{
+    /*
+    margin-right: 113px;
+    margin-left: 122px;
+    */
+    margin: auto;
+}
