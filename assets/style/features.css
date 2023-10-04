@@ -1,5 +1,8 @@
 @import url("../css/global/font.css");
-.wrapper ul{
+.features{
+    margin-bottom: 15.5rem;
+}
+.features ul{
     list-style: disc;
     width: 41.375rem;
     height: 23.375rem;
@@ -11,7 +14,7 @@
     line-height: 150%; /* 2.25rem */
     margin-left: 1.0625rem;
 }
-.wrapper h2{
+.features h2{
     width: 41.6875rem;
     height: 5.8125rem;
     color: #000;
@@ -19,35 +22,39 @@
     font-style: normal;
     font-weight: 700;
     line-height: 101.385%; /* 3.4851rem */
-    margin-bottom: 1.3125rem;
+    gap: 1.3125rem;
 }
 /*Tablet*/
 @media screen and (max-width: 1279px) and (min-width: 992px){
-    .wrapper ul{
+    .features{
+        margin-bottom: 8.9769rem;
+    }
+    .features ul{
         width: 23.963rem;
         height: 13.538rem;
         font-size: .875rem;
         margin-left: .6156rem;
     }
-    .wrapper h2{
+    .features h2{
         width: 24.144rem;
         height: 3.3664rem;
         font-size: 2rem;
-        margin-bottom: .76rem;
     }
 }
 /*Mobile*/
 @media screen and (max-width: 991px) and (min-width: 320px){
-    .wrapper ul{
+    .features{
+        margin-bottom: 5.3125rem;
+    }
+    .features ul{
         width: 18.6875rem;
         height: 10.875rem;
         font-size: .75rem;
         margin-left: .5rem;
     }
-    .wrapper h2{
+    .features h2{
         width: 19.4252rem;
         height: 2.7084rem;
         font-size: 1.625rem;
-        margin-bottom: .6038rem;
     }
 }
