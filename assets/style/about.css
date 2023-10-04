@@ -42,7 +42,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 130%;
 }
-bottom-p{
+.bottom-p{
     width: 150px;
 height: 39px;
 flex-shrink: 0;
@@ -52,7 +52,9 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 130%;
+color: red;
 }
+
 .photo2{
     width: 232px;
 height: 203px;
