@@ -1,0 +1,47 @@
+.course-details{
+    background-color: #9DC9C8;;
+}
+.one{
+    width: 908px;
+height: 66px;
+color: #000;
+font-family: Roboto Slab;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 101.385%; /* 55.762px */
+padding-top: 80px;
+padding-left: 45px;
+padding-bottom: 40px;
+}
+.two{
+    width: 170px;
+height: 32px;
+color: #000;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 101.385%; /* 25.346px */
+padding-left: 45px;;
+
+}
+.three{
+    width: 481px;
+    height: 181px;
+    color: #000;
+font-family: Roboto;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: 101.385%; /* 81.108px */
+padding-bottom: px;
+padding-left: 45px;
+}
+.four{
+    display: flex;
+    padding: 45px;
+
+}
+
+
