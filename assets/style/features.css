@@ -27,14 +27,12 @@
         width: 23.963rem;
         height: 13.538rem;
         font-size: .875rem;
-        line-height: 150%; /* 1.3125rem */
         margin-left: .6156rem;
     }
     .wrapper h2{
         width: 24.144rem;
         height: 3.3664rem;
         font-size: 2rem;
-        line-height: 101.385%; /* 2.0277rem */
         margin-bottom: .76rem;
     }
 }
@@ -44,14 +42,12 @@
         width: 18.6875rem;
         height: 10.875rem;
         font-size: .75rem;
-        line-height: 150%; /* 1.125rem */
         margin-left: .5rem;
     }
     .wrapper h2{
         width: 19.4252rem;
         height: 2.7084rem;
         font-size: 1.625rem;
-        line-height: 101.385%; /* 1.6475rem */
         margin-bottom: .6038rem;
     }
 }
