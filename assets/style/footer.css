@@ -1,6 +1,10 @@
-.course-details{
-    background-color: #9DC9C8;;
+.footer{
+    background-color: #000;
     
+}
+.social-list li i{
+    color: white;
+    font-size: 20px;
 }
 h1{
     width: 56.75rem;
