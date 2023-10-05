@@ -2,56 +2,63 @@
     background-color: #000;
     
 }
-.social-list li i{
-    color: white;
-    font-size: 20px;
+.footer .container{
+    margin: 0;
+    width: 100%;
 }
-h1{
-    width: 56.75rem;
-height: 4.125rem;
-color: #000;
-font-size: 3.4375rem;
-font-style: normal;
-font-weight: 700;
-line-height: 101.385%; /* 3.4851rem */
-padding-top: 5rem;
-padding-left: 2.8125rem;
-padding-bottom: 2.5rem;
+.footer .wrapper{
+    padding: 0 9.125rem 0 7.625rem;
 }
-.two{
-    width: 10.625rem;
-height: 2rem;
-color: #000;
-
-font-size: 1.5625rem;
-font-style: normal;
-font-weight: 400;
-line-height: 101.385%; /* 1.5841rem */
-padding-left: 2.8125rem;;
-
-}
-.three{
-    width: 30.0625rem;
-    height: 11.3125rem;
-    color: #000;
-
-font-size: 5rem;
-font-style: normal;
-font-weight: 400;
-line-height: 101.385%; /* 5.0693rem */
-padding-bottom: px;
-padding-left: 2.8125rem;
-}
-.four{
+.footer .content{
+    height: 24.375rem;
     display: flex;
-    padding: 2.8125rem;
-
+    flex-direction: row;
+    justify-content: space-between;
 }
-.end{
-    width: 18.375rem;
-    height: 4.375rem;
+.footer p{
+    width: 14.375rem;
+    height: 2.5rem;
+    color: #FFF;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%; /* 1.1406rem */
 }
-@media screen () {
-    
+.footer .logo{
+    width: 7.1875rem;
+    height: 4.25rem;
+    padding: 3.125rem 0 1.875rem;
 }
-
+.footer li i{
+    color: white;
+    font-size: 1.25rem;
+}
+.footer ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5625rem;
+    padding-bottom: 9.125rem;
+}
+.footer .right i{
+    width: 1.6875rem;
+    height: 1.6875rem;
+    color: white;
+    font-size: 1.25rem;
+}
+.footer .right{
+    /* padding: 3.75rem 9.125rem 15.5rem 41rem; */
+}
+.footer .mobile{
+    padding-bottom: 1.5625rem;
+    padding-top: 3.75rem;
+    display: flex;
+    flex-direction: row;
+}
+.footer .mail{
+    display: flex;
+    flex-direction: row;
+}
+.footer .icon{
+    width: 2.1875rem;
+    height: 2.1875rem;
+}
