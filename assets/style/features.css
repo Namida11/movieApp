@@ -24,15 +24,14 @@
     line-height: 101.385%; /* 3.4851rem */
     gap: 1.3125rem;
 }
-/*Tablet*/
-@media screen and (max-width: 1279px) and (min-width: 992px){
+@media screen and (min-width: 991px) and (max-width: 1281px){
     .features{
         margin-bottom: 8.9769rem;
     }
     .features ul{
         width: 23.963rem;
         height: 13.538rem;
-        font-size: .875rem;
+        font-size: 1.25rem;
         margin-left: .6156rem;
     }
     .features h2{
@@ -41,8 +40,55 @@
         font-size: 2rem;
     }
 }
-/*Mobile*/
-@media screen and (max-width: 991px) and (min-width: 320px){
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .features{
+        margin-bottom: 8.4375rem;
+    }
+    .features ul{
+        width: 18.6875rem;
+        height: 10.875rem;
+        font-size: 1.125rem;
+        margin-left: .5rem;
+    }
+    .features h2{
+        width: 19.4252rem;
+        height: 2.7084rem;
+        font-size: 1.625rem;
+    }
+}
+@media screen and (min-width: 430px) and (max-width: 768px){
+    .features{
+        margin-bottom: 7.1875rem;
+    }
+    .features ul{
+        width: 18.6875rem;
+        height: 10.875rem;
+        font-size: 1rem;
+        margin-left: .5rem;
+    }
+    .features h2{
+        width: 19.4252rem;
+        height: 2.7084rem;
+        font-size: 1.625rem;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 430px){
+    .features{
+        margin-bottom: 5.9375rem;
+    }
+    .features ul{
+        width: 18.6875rem;
+        height: 10.875rem;
+        font-size: .875rem;
+        margin-left: .5rem;
+    }
+    .features h2{
+        width: 19.4252rem;
+        height: 2.7084rem;
+        font-size: 1.625rem;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 375px){
     .features{
         margin-bottom: 5.3125rem;
     }
