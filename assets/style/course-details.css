@@ -10,7 +10,7 @@ font-size: 55px;
 }
 .price{
     width: 10.625rem;
-height: 2rem;
+
 color: #000;
 
 font-size: 1.5625rem;
@@ -77,17 +77,17 @@ padding-left: 2.8125rem;
     }
 }
 @media (max-width: 991px){
-    /*768-991*/
+    /*768-991 tablet*/ 
     .heading{
-        width: 224px;
+        width: 525.883px;
         font-size: 26px;
     }
     .price{
         width: 79.215px;
-        font-size: 12px;
+        font-size: 14px;
 }
     .rubl{
-        width: 224.133px;
+       
     font-size: 37px;
     
 }
@@ -102,5 +102,33 @@ h4{
 }
 @media (max-width: 768px){
     /* planset */
+    .heading{
+        max-width: 224px;
+    }
+    .rubl{
+        max-width: 160px !important;
+        font-size: 24px;
+    }
 
+}
+@media (max-width: 430px){
+    /* planset */
+    .heading{
+        max-width: 210px;
+
+    }
+    .rubl{
+        max-width: 160px !important;
+        font-size: 16px;
+    }
+    .four{
+        gap: 20px;
+        padding-left:2.815rem ;
+    }
+    #endone{
+        max-width: 138px;
+    }
+    #endtwo{
+        max-width: 140px;
+    }
 }
