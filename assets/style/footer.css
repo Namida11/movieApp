@@ -16,10 +16,10 @@
     justify-content: space-between;
 }
 .footer p{
-    width: 14.375rem;
+    width: 15.625rem;
     height: 2.5rem;
     color: #FFF;
-    font-size: 1.125rem;
+    font-size: 1.375rem;
     font-style: normal;
     font-weight: 400;
     line-height: 101.385%; /* 1.1406rem */
@@ -31,6 +31,8 @@
 }
 .footer li img{
     color: white;
+    width: 1.875rem;
+    height: 1.875rem;
 }
 .footer ul{
     display: flex;
@@ -61,76 +63,111 @@
     flex-direction: row;
 }
 .footer .right p{
-    padding-top: .4375rem;
-    padding-left: 1.25rem;
+    padding-top: .625rem;
+    padding-left: .625rem;
+    width: 14.375rem;
+    font-size: 1.5rem;
 }
 @media screen and (min-width: 991px) and (max-width: 1281px) {
-  
-}
-@media screen and (min-width: 768px) and (max-width: 991px) {
     .footer .wrapper{
-        padding: 0 85px 0 71px;
-        height: 15.6875rem;
+        padding: 0 6.875rem 0 5.625rem;
+        height: 21.875rem;
     }
     .footer p{
-        width: 11.25rem;
+        width: 14.0625rem;
         height: 1.3125rem;
-        font-size: .75rem;
-    }
-    .footer p.sync{
-        position: relative;
-        bottom: .9375rem;
+        font-size: 1.25rem;
     }
     .footer .logo{
-        width: 3.75rem;
-        height: 2.3125rem;
-        padding: 1.4563rem 0 1.1875rem;
+        width: 6.0625rem;
+        height: 3.75rem;
+        padding: 2.1875rem 0 1.1875rem;
     }
     .footer .logo img{
-        width: 3.75rem;
-        height: 2.3125rem;
+        width: 6.0625rem;
+        height: 3.75rem;
     }
     .footer li img{
-        width: 1.0313rem;
-        height: 1.0313rem;
+        width: 1.6875rem;
+        height: 1.6875rem;
     }
     .footer ul{
         gap: .625rem;
         padding-bottom: 0;
     }
     .footer .left{
-        padding-bottom: 8.75rem;
+        padding-bottom: 10rem;
     }
     .footer .right{
-        padding-top: 1.4563rem;
+        padding-top: 2.1875rem;
     }
     .footer .right img{
-        padding-bottom: .6094rem;
+        padding-bottom: .75rem;
     }
     .footer .right p{
-        padding-top: .24rem;
-        width: 11.875rem;
+        padding-top: .4375rem;
+        padding-bottom: .4375rem;
+        width: 13.125rem;
+        font-size: 1.375rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .footer .wrapper{
+        padding: 0 5.3125rem 0 4.4375rem;
+        height: 18.75rem;
+    }
+    .footer p{
+        width: 11.25rem;
+        height: 1.3125rem;
         font-size: 1rem;
+    }
+    .footer .logo{
+        width: 4.8125rem;
+        height: 3.125rem;
+        padding: 2.1875rem 0 1.1875rem;
+    }
+    .footer .logo img{
+        width: 4.8125rem;
+        height: 3.125rem;
+    }
+    .footer li img{
+        width: 1.5625rem;
+        height: 1.5625rem;
+    }
+    .footer ul{
+        gap: .625rem;
+        padding-bottom: 0;
+    }
+    .footer .left{
+        padding-bottom: 7.5rem;
+    }
+    .footer .right{
+        padding-top: 2.1875rem;
+    }
+    .footer .right img{
+        padding-bottom: .75rem;
+    }
+    .footer .right p{
+        padding-top: .4375rem;
+        padding-bottom: .4375rem;
+        width: 11.875rem;
+        font-size: 1.25rem;
     }
 }
 @media screen and (min-width: 430px) and (max-width: 768px) {
     .footer .wrapper{
         padding: 0 5rem 0 4.0625rem;
-        height: 15.6875rem;
+        height: 14.0625rem;
     }
     .footer p{
         width: 10rem;
         height: 1.3125rem;
-        font-size: .625rem;
-    }
-    .footer p.sync{
-        position: relative;
-        bottom: .9375rem;
-    }
+        font-size: .875rem;
+    }  
     .footer .logo{
         width: 3.75rem;
         height: 2.3125rem;
-        padding: 1.4563rem 0 1.1875rem;
+        padding: 1.875rem 0 1.1875rem;
     }
     .footer .logo img{
         width: 3.75rem;
@@ -145,18 +182,18 @@
         padding-bottom: 0;
     }
     .footer .left{
-        padding-bottom: 8.75rem;
+        padding-bottom: 5.625rem;
     }
     .footer .right{
-        padding-top: 1.4563rem;
+        padding-top: 1.875rem;
     }
     .footer .right img{
         padding-bottom: .6094rem;
     }
     .footer .right p{
         padding-top: .24rem;
-        width: 8.4375rem;
-        font-size: .875rem;
+        width: 9.5625rem;
+        font-size: 1rem;
     }
 }
 @media screen and (min-width: 375px) and (max-width: 430px) {
@@ -169,13 +206,9 @@
         justify-content: left;
     }
     .footer p{
-        width: 8rem;
+        width: 8.4375rem;
         height: 1.3125rem;
-        font-size: .5rem;
-    }
-    .footer p.sync{
-        position: relative;
-        bottom: .7813rem;
+        font-size: .75rem;
     }
     .footer .logo{
         width: 3.4375rem;
@@ -195,14 +228,14 @@
         padding-bottom: 0;
     }
     .footer .right{
-        padding: 2.9688rem 0 2.8438rem;
+        padding: 2.9688rem 0 2.1875rem;
     }
     .footer .right img{
         padding-bottom: .6094rem;
     }
     .footer .right p{
         padding-top: .24rem;
-        font-size: .75rem;
+        font-size: .875rem;
     }
 }
 @media screen and (min-width: 320px) and (max-width: 375px) {
@@ -217,11 +250,7 @@
     .footer p{
         width: 7.8342rem;
         height: 1.1649rem;
-        font-size: .375rem;
-    }
-    .footer p.sync{
-        position: relative;
-        bottom: .625rem;
+        font-size: .625rem;
     }
     .footer .logo{
         width: 3.3492rem;
@@ -241,13 +270,13 @@
         padding-bottom: 0;
     }
     .footer .right{
-        padding: 3.125rem 0 3rem;
+        padding: 3.125rem 0 2.5rem;
     }
     .footer .right img{
         padding-bottom: .6094rem;
     }
     .footer .right p{
         padding-top: .24rem;
-        font-size: .625rem;
+        font-size: .75rem;
     }
 }
