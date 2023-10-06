@@ -73,9 +73,9 @@
         height: 15.6875rem;
     }
     .footer p{
-        width: 180px;
+        width: 11.25rem;
         height: 1.3125rem;
-        font-size: 1rem;
+        font-size: .75rem;
     }
     .footer p.sync{
         position: relative;
@@ -110,7 +110,7 @@
     .footer .right p{
         padding-top: .24rem;
         width: 11.875rem;
-        font-size: 1.0625rem;
+        font-size: 1rem;
     }
 }
 @media screen and (min-width: 430px) and (max-width: 768px) {
@@ -121,7 +121,7 @@
     .footer p{
         width: 10rem;
         height: 1.3125rem;
-        font-size: .875rem;
+        font-size: .625rem;
     }
     .footer p.sync{
         position: relative;
@@ -156,6 +156,7 @@
     .footer .right p{
         padding-top: .24rem;
         width: 8.4375rem;
+        font-size: .875rem;
     }
 }
 @media screen and (min-width: 375px) and (max-width: 430px) {
@@ -170,7 +171,7 @@
     .footer p{
         width: 8rem;
         height: 1.3125rem;
-        font-size: .7188rem;
+        font-size: .5rem;
     }
     .footer p.sync{
         position: relative;
@@ -201,6 +202,7 @@
     }
     .footer .right p{
         padding-top: .24rem;
+        font-size: .75rem;
     }
 }
 @media screen and (min-width: 320px) and (max-width: 375px) {
@@ -215,7 +217,7 @@
     .footer p{
         width: 7.8342rem;
         height: 1.1649rem;
-        font-size: .625rem;
+        font-size: .375rem;
     }
     .footer p.sync{
         position: relative;
@@ -246,5 +248,6 @@
     }
     .footer .right p{
         padding-top: .24rem;
+        font-size: .625rem;
     }
 }
