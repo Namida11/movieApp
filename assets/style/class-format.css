@@ -23,7 +23,7 @@
     line-height: 130%; /* 2.0313rem */
     margin: 0;
 }
-.format-class h3.ex{
+.format-class h3.h3-width{
     width: 13.375rem;
 }
 .format-class p{
@@ -62,7 +62,7 @@
         height: 1.4117rem;
         font-size: .9375rem;
     }
-    .format-class h3.ex{
+    .format-class h3.h3-width{
         width: 7.7464rem;
     }
     .format-class p{
@@ -92,7 +92,7 @@
         height: 1.1358rem;
         font-size: .9063rem;
     }
-    .format-class h3.ex{
+    .format-class h3.h3-width{
         width: 7.7464rem;
     }
     .format-class p{
@@ -125,7 +125,7 @@
         height: 1.1358rem;
         font-size: .8438rem;
     }
-    .format-class h3.ex{
+    .format-class h3.h3-width{
         width: 7.7464rem;
     }
     .format-class p{
@@ -158,7 +158,7 @@
         height: 1.1358rem;
         font-size: .7813rem;
     }
-    .format-class h3.ex{
+    .format-class h3.h3-width{
         width: 6.2324rem;
     }
     .format-class p{
@@ -193,7 +193,7 @@
         height: 1.1358rem;
         font-size: .75rem;
     }
-    .format-class h3.ex{
+    .format-class h3.h3-width{
         width: 6.2324rem;
     }
     .format-class p{
