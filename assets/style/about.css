@@ -1,150 +1,135 @@
-.wrapper-about,  .wrapper2 , .content-wrapper{
+.course {
+  margin-bottom: 6rem;
+}
+.course #title {
+  /* width: 211.396px;
+  height: 53.863px; */
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.course .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.course .content {
+  width: 60%;
+}
+.content .info {
+  /* width: 23.963rem; */
+}
+.course .content .info p {
+  font-size: 17px;
+}
+.course .image {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+.course .image img:first-child {
+  width: 12.8036rem;
+  height: 12.8399rem;
+  object-fit: cover;
+}
+
+.course .additional-info-wrapper {
+  display: flex;
+  width: 80%;
+  margin-top: 3.125rem;
+  align-items: center;
+}
+.course .additional-info-wrapper .lessons {
+  display: flex;
+  width: 60%;
+}
+.course .add-image {
+  width: 40%;
+  position: relative;
+}
+.course .add-image svg {
+  position: absolute;
+  bottom: -0.9375rem;
+  left: 0.625rem;
+  z-index: -1;
+}
+.course .add-image img {
+  width: 11.875rem;
+  height: 11.9375rem;
+}
+.course .hour {
+  font-size: 1.0625rem;
+  padding: 0.3125rem 0;
+  font-weight: 700;
+}
+.course .lesson-content {
+  font-size: 0.875rem;
+}
+.course .lesson {
+  flex: 1;
+}
+@media screen and (max-width: 600px) {
+  .course .content-wrapper {
     display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  .course .content {
+    width: 100%;
+  }
+  .course .image {
+    width: 100%;
+    justify-content: center;
+  }
+  .course .image img:first-child {
+    width: 9.1447rem;
+    height: 9.1738rem;
+  }
 
+  .course .additional-info-wrapper {
+    flex-direction: column;
+  }
+  .course .add-image {
+    display: none;
+  }
+  .course .additional-info-wrapper .lessons {
+    width: 100%;
+    gap: 2.1875rem;
+    flex-wrap: wrap;
+    padding: 1.25rem 0;
+  }
+  .course .lesson {
+    flex: unset;
+    max-width: 40%;
+  }
+  .course #title {
+    margin-bottom: 1.25rem;
+  }
+  .course .hour {
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+  .course .lesson-content {
+    font-size: 0.625rem;
+    line-height: 0.9375rem;
+    margin-top: 0.25rem;
+  }
 }
-.wrapper-about{
-    justify-content: space-between;
-}
-.about h1{
-    font-family: "Roboto Slab", serif;
-    color: #000;
-font-size: 3.4375rem;
-font-style: normal;
-font-weight: 700;
-line-height: 101.385%;
-}
-.etaplarfilm{
-    max-width: 41.375rem;
-height: 23.375rem;
-flex-shrink: 0;
-    font-family: "Roboto Slab", serif;
-    color: #000;
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 400;
-line-height: 150%;
-}
-.about .photo1{
-    width: 19.625rem;
-    height: 19.6875rem;
-    flex-shrink: 0;
-    padding-left: 15%;
-}
-.about h3{
- width: 9.375rem;
-height: 2.4375rem;
-flex-shrink: 0;
-color: #000;
-font-family: "Roboto Slab", serif;
-font-size: 1.5625rem;
-font-style: normal;
-font-weight: 700;
-line-height: 130%;
-}
-.bottomtext{
-    width: 9.375rem;
-height: 2.4375rem;
-flex-shrink: 0;
-color: #000;
-font-family: "Roboto Slab", serif;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 400;
-line-height: 130%;
-}
-
-.about .photo2{
-    width: 14.5rem;
-height: 12.6875rem;
-flex-shrink: 0;
-}
-
-.content-wrapper{
-    
-}
-
-
-
-@media (max-width: 1280px) {
-    /* 991-1280*/
-
-    .etaplarfilm{
-        max-width: 28.125rem;
-
-    }
-    .about .photo1 img{
-        width: 315px;
-        height: 316px;
-    }
-    .about h1{
-        width: 270px;
-        height: 73px;
-        font-size: 43px;
-    }
-    .about .etaplarfilm{
-        width: 500px;
-        height: 300px;
-        font-size: 19px;
-    }
-    .wrapper2 .photo2{
-        width: 184px;
-        height: 162px;
-    }
-    .bottomtext h3{
-        width: 120px;
-        height: 30px;
-        font-size: 20px;
-    }
-    .bottomtext p{
-        width: 120px;
-        height: 30px;
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 991px) {
-    /*768-991 planset*/
-    .about .photo1 img{
-        width: 182px;
-        height: 183px;
-    
-    }
-    .about h1{
-        width: 211.396px;
-        height: 53.863px;
-        font-size: 32px;
-    }
-    .about .etaplarfilm{
-        width: 383.408px;
-        height: 216.608px;
-        font-size: 14px;
-    }
-    .wrapper2 .photo2{
-        width: 134.367px;
-        height: 117.571px;
-    }
-    .bottomtext h3{
-        width: 86.875px;
-        height: 22.587px;
-    }
-    .bottomtext p{
-        width: 86.875px;
-        height: 22.587px;
-    } 
-
-
-
-}
-@media screen and (max-width: 768px) {
-
-
-}
-@media (max-width: 430px) {
-
-}
-@media (min-width: 375px) and (max-width: 430px) {
-
-}
-@media (min-width: 320px) and (max-width: 375px) {
-
+@media screen and (min-width: 601px) and (max-width: 834px) {
+  .course .add-image {
+    display: none;
+  }
+  .course .additional-info-wrapper .lessons {
+    width: 100%;
+    gap: 1.25rem;
+  }
+  .course .lesson {
+    flex: unset;
+    max-width: 25%;
+  }
+  .course .lesson-content {
+    font-size: 0.75rem;
+  }
 }

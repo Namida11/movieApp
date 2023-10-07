@@ -1,216 +1,216 @@
 @import url("../css/global/font.css");
-.format-class{
-    margin-bottom: 11.1875rem;
+.format-class {
+  margin-bottom: 11.1875rem;
 }
-.format-class h2{
-    width: 41.6875rem;
-    height: 5.8125rem;
-    color: #000;
-    font-size: 3.4375rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 101.385%; /* 3.4851rem */
-    margin: 0;
-    gap: 5.5625rem;
+.format-class h2 {
+  width: 41.6875rem;
+  height: 5.8125rem;
+  color: #000;
+  font-size: 3.4375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.385%; /* 3.4851rem */
+  margin: 0;
+  gap: 5.5625rem;
 }
-.format-class h3{
-    width: 9.375rem;
-    height: 2.4375rem;
-    color: #1E4681;
-    font-size: 1.5625rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 130%; /* 2.0313rem */
-    margin: 0;
+.format-class h3 {
+  width: 9.375rem;
+  height: 2.4375rem;
+  color: #1e4681;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 2.0313rem */
+  margin: 0;
 }
-.format-class h3.h3-width{
-    width: 13.375rem;
+.format-class h3.h3-width {
+  width: 13.375rem;
 }
-.format-class p{
-    width: 13.9375rem;
-    height: 2.4375rem;
-    color: #000;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 130%; /* 1.4625rem */
+.format-class p {
+  width: 13.9375rem;
+  height: 2.4375rem;
+  color: #000;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 1.4625rem */
 }
-.format-class p.sec{
-    width: 16.9375rem;
-    height: 6.8125rem;
+.format-class p.sec {
+  width: 16.9375rem;
+  height: 6.8125rem;
 }
-.format-class p.thr{
-    width: 15.3125rem;
+.format-class p.thr {
+  width: 15.3125rem;
 }
-.format-class .content{
-    display: flex;
-    flex-direction: row;
-    gap: 7.5rem;
+.format-class .content {
+  display: flex;
+  flex-direction: row;
+  gap: 7.5rem;
 }
 
-@media screen and (min-width: 991px) and (max-width: 1281px){
-    .format-class{
-        margin-bottom: 6.4719rem;
-    }
-    .format-class h2{
-        width: 24.144rem;
-        height: 3.3664rem;
-        font-size: 2rem;
-    }
-    .format-class h3{
-        width: 5.4297rem;
-        height: 1.4117rem;
-        font-size: .9375rem;
-    }
-    .format-class h3.h3-width{
-        width: 7.7464rem;
-    }
-    .format-class p{
-        width: 12.5625rem;
-        height: 1.375rem;
-        font-size: 1rem;
-    }
-    .format-class p.sec{
-        width: 14.75rem;
-        height: 3.9375rem;
-    }
-    .format-class p.thr{
-        width: 13.8685rem;
-    }
+@media screen and (min-width: 991px) and (max-width: 1280px) {
+  .format-class {
+    margin-bottom: 6.4719rem;
+  }
+  .format-class h2 {
+    width: 24.144rem;
+    height: 3.3664rem;
+    font-size: 2rem;
+  }
+  .format-class h3 {
+    width: 5.4297rem;
+    height: 1.4117rem;
+    font-size: 0.9375rem;
+  }
+  .format-class h3.h3-width {
+    width: 7.7464rem;
+  }
+  .format-class p {
+    width: 12.5625rem;
+    height: 1.375rem;
+    font-size: 1rem;
+  }
+  .format-class p.sec {
+    width: 14.75rem;
+    height: 3.9375rem;
+  }
+  .format-class p.thr {
+    width: 13.8685rem;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .format-class{
-        margin-bottom: 4.5625rem;
-    }
-    .format-class h2{
-        width: 19.4252rem;
-        height: 2.7084rem;
-        font-size: 1.9375rem;
-    }
-    .format-class h3{
-        width: 4.3685rem;
-        height: 1.1358rem;
-        font-size: .9063rem;
-    }
-    .format-class h3.h3-width{
-        width: 7.7464rem;
-    }
-    .format-class p{
-        width: 11rem;
-        height: 1.375rem;
-        font-size: .875rem;
-    }
-    .format-class p.sec{
-        width: 12.75rem;
-        height: 3.9375rem;
-    }
-    .format-class p.thr{
-        width: 11.8685rem;
-    }
-    .format-class .content{
-        gap: 3.125rem;
-    }
+  .format-class {
+    margin-bottom: 4.5625rem;
+  }
+  .format-class h2 {
+    width: 19.4252rem;
+    height: 2.7084rem;
+    font-size: 1.9375rem;
+  }
+  .format-class h3 {
+    width: 4.3685rem;
+    height: 1.1358rem;
+    font-size: 0.9063rem;
+  }
+  .format-class h3.h3-width {
+    width: 7.7464rem;
+  }
+  .format-class p {
+    width: 11rem;
+    height: 1.375rem;
+    font-size: 0.875rem;
+  }
+  .format-class p.sec {
+    width: 12.75rem;
+    height: 3.9375rem;
+  }
+  .format-class p.thr {
+    width: 11.8685rem;
+  }
+  .format-class .content {
+    gap: 3.125rem;
+  }
 }
 @media screen and (min-width: 430px) and (max-width: 768px) {
-    .format-class{
-        margin-bottom: 4.5625rem;
-    }
-    .format-class h2{
-        width: 19.4252rem;
-        height: 2.7084rem;
-        font-size: 1.8125rem;
-    }
-    .format-class h3{
-        width: 4.3685rem;
-        height: 1.1358rem;
-        font-size: .8438rem;
-    }
-    .format-class h3.h3-width{
-        width: 7.7464rem;
-    }
-    .format-class p{
-        width: 9.5625rem;
-        height: 1.375rem;
-        font-size: .75rem;
-    }
-    .format-class p.sec{
-        width: 11.75rem;
-        height: 3.9375rem;
-    }
-    .format-class p.thr{
-        width: 9.8685rem;
-    }
-    .format-class .content{
-        gap: 1.25rem;
-    }
+  .format-class {
+    margin-bottom: 4.5625rem;
+  }
+  .format-class h2 {
+    width: 19.4252rem;
+    height: 2.7084rem;
+    font-size: 1.8125rem;
+  }
+  .format-class h3 {
+    width: 4.3685rem;
+    height: 1.1358rem;
+    font-size: 0.8438rem;
+  }
+  .format-class h3.h3-width {
+    width: 7.7464rem;
+  }
+  .format-class p {
+    width: 9.5625rem;
+    height: 1.375rem;
+    font-size: 0.75rem;
+  }
+  .format-class p.sec {
+    width: 11.75rem;
+    height: 3.9375rem;
+  }
+  .format-class p.thr {
+    width: 9.8685rem;
+  }
+  .format-class .content {
+    gap: 1.25rem;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 430px) {
-    .format-class{
-        margin-bottom: 4.5625rem;
-    }
-    .format-class h2{
-        width: 19.4252rem;
-        height: 2.7084rem;
-        font-size: 1.6875rem;
-    }
-    .format-class h3{
-        width: 4.3685rem;
-        height: 1.1358rem;
-        font-size: .7813rem;
-    }
-    .format-class h3.h3-width{
-        width: 6.2324rem;
-    }
-    .format-class p{
-        width: 11.25rem;
-        height: 3rem;
-        font-size: .6875rem;
-    }
-    .format-class p.sec{
-        width: 10.3125rem;
-        height: 3.1875rem;
-    }
-    .format-class p.thr{
-        width: 9.9375rem;
-        height: 1.9375rem;
-    }
-    .format-class .content{
-        flex-direction: column;
-        gap: .9375rem;
-    }
+  .format-class {
+    margin-bottom: 4.5625rem;
+  }
+  .format-class h2 {
+    width: 19.4252rem;
+    height: 2.7084rem;
+    font-size: 1.6875rem;
+  }
+  .format-class h3 {
+    width: 4.3685rem;
+    height: 1.1358rem;
+    font-size: 0.7813rem;
+  }
+  .format-class h3.h3-width {
+    width: 6.2324rem;
+  }
+  .format-class p {
+    width: 11.25rem;
+    height: 3rem;
+    font-size: 0.6875rem;
+  }
+  .format-class p.sec {
+    width: 10.3125rem;
+    height: 3.1875rem;
+  }
+  .format-class p.thr {
+    width: 9.9375rem;
+    height: 1.9375rem;
+  }
+  .format-class .content {
+    flex-direction: column;
+    gap: 0.9375rem;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 375px) {
-    .format-class{
-        margin-bottom: 4.5625rem;
-    }
-    .format-class h2{
-        width: 19.4252rem;
-        height: 2.7084rem;
-        font-size: 1.625rem;
-    }
-    .format-class h3{
-        width: 4.3685rem;
-        height: 1.1358rem;
-        font-size: .75rem;
-    }
-    .format-class h3.h3-width{
-        width: 6.2324rem;
-    }
-    .format-class p{
-        width: 11.25rem;
-        height: 3rem;
-        font-size: .625rem;
-    }
-    .format-class p.sec{
-        width: 10.3125rem;
-        height: 3.1875rem;
-    }
-    .format-class p.thr{
-        width: 9.9375rem;
-        height: 1.9375rem;
-    }
-    .format-class .content{
-        flex-direction: column;
-        gap: .9375rem;
-    }
+  .format-class {
+    margin-bottom: 4.5625rem;
+  }
+  .format-class h2 {
+    width: 19.4252rem;
+    height: 2.7084rem;
+    font-size: 1.625rem;
+  }
+  .format-class h3 {
+    width: 4.3685rem;
+    height: 1.1358rem;
+    font-size: 0.75rem;
+  }
+  .format-class h3.h3-width {
+    width: 6.2324rem;
+  }
+  .format-class p {
+    width: 11.25rem;
+    height: 3rem;
+    font-size: 0.625rem;
+  }
+  .format-class p.sec {
+    width: 10.3125rem;
+    height: 3.1875rem;
+  }
+  .format-class p.thr {
+    width: 9.9375rem;
+    height: 1.9375rem;
+  }
+  .format-class .content {
+    flex-direction: column;
+    gap: 0.9375rem;
+  }
 }

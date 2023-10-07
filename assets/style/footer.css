@@ -67,7 +67,7 @@
   width: 14.375rem;
   font-size: 1.5rem;
 }
-@media screen and (min-width: 991px) and (max-width: 1281px) {
+@media screen and (min-width: 991px) and (max-width: 1280px) {
   .footer .wrapper {
     padding: 0 6.875rem 0 5.625rem;
     height: 21.875rem;
