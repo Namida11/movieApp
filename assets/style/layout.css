@@ -96,7 +96,7 @@
   font-weight: 400;
 }
 /* menim komp buna uygun ozumden edecem 991-1281*/
-@media (max-width: 1280px) {
+@media (min-width: 991px) and (max-width: 1281px) {
   .header .wrapper {
     padding: 22px 0;
   }
@@ -169,7 +169,7 @@
   }
 }
 /*planset --- figmadaki olcuye uygun 768-991*/
-@media (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .header .container,
   .course-program .container {
     width: 85%;
@@ -194,7 +194,6 @@
   .program-content h1 {
     width: 363.717px;
     font-size: 46px;
-    background-color: chartreuse;
   }
   .program-content p {
     max-width: 264px;
@@ -215,10 +214,11 @@
     padding: 12px 22px 20px;
   }
   .note-section {
-    margin-top: 0px;
+    margin-top: 44px;
     padding-bottom: 0rem;
   }
   .note-text #text {
+    max-width: 280px;
     font-size: 14px;
     line-height: 130%;
     height: 5.0625rem;
@@ -228,7 +228,7 @@
   }
 }
 /* planset 430-768*/
-@media screen and (max-width: 768px) {
+@media (min-width: 430px) and (max-width: 768px) {
   .header .wrapper {
     padding-top: 36px;
   }
@@ -274,11 +274,12 @@
     justify-content: start;
   } */
   .note-wrapper {
-    padding: 9px 14px 18px;
+    padding: 9px 14px 8px;
   }
 
   .note-text #text {
-    max-width: 190px;
+    max-width: 219px;
+    height: 70px;
     font-size: 11px;
     line-height: 130%;
     font-weight: 300;
@@ -299,7 +300,6 @@
   }
   .program-content h1 {
     width: 363.717px;
-    background-color: orange;
   }
   .course-program .wrapper {
     flex-direction: column;
@@ -332,7 +332,6 @@
   .program-content h1 {
     width: 363.717px;
     font-size: 37px;
-    background-color: aqua;
   }
   /* kicik mobile*/
 }
