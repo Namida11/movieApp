@@ -1,14 +1,15 @@
-@import url("../style/layout.css");
 @import url("../css/global/style.css");
 
-@import url("footer.css");
+@import url("../style/layout.css");
 
 @import url("../style/about.css");
+
+@import url("./class-format.css");
+
+@import url("./features.css");
 
 @import url("../style/cards.css");
 
 @import url("./course-details.css");
 
-@import url("./class-format.css");
-
-@import url("./features.css");
+@import url("footer.css");
