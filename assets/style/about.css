@@ -1,5 +1,5 @@
 .course {
-  margin-bottom: 6rem;
+  margin-bottom: 3.7rem;
 }
 .course #title {
   /* width: 211.396px;
@@ -76,6 +76,11 @@
     flex-direction: column;
     gap: 1.25rem;
   }
+  .course #title {
+    font-size: 1.625rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
   .course .content {
     width: 100%;
   }
@@ -93,6 +98,11 @@
   }
   .course .add-image {
     display: none;
+  }
+
+  .course .content .info p {
+    font-size: 12px;
+    max-width: 300px;
   }
   .course .additional-info-wrapper .lessons {
     width: 100%;
@@ -120,6 +130,11 @@
 @media screen and (min-width: 601px) and (max-width: 834px) {
   .course .add-image {
     display: none;
+  }
+  .course #title {
+    font-size: 2.5rem;
+    margin-bottom: 27px;
+    font-weight: 700;
   }
   .course .additional-info-wrapper .lessons {
     width: 100%;

@@ -2,15 +2,17 @@
 .format-class {
   margin-bottom: 11.1875rem;
 }
+.format-class .wrapper {
+  width: 80%;
+}
 .format-class h2 {
-  width: 41.6875rem;
   height: 5.8125rem;
   color: #000;
   font-size: 3.4375rem;
   font-style: normal;
   font-weight: 700;
   line-height: 101.385%; /* 3.4851rem */
-  margin: 0;
+
   gap: 5.5625rem;
 }
 .format-class h3 {
@@ -35,17 +37,19 @@
   font-weight: 400;
   line-height: 130%; /* 1.4625rem */
 }
+.format-class .content {
+  display: flex;
+  gap: 7.5rem;
+}
+.format-class .content div {
+  width: calc(100% / 3);
+}
 .format-class p.sec {
   width: 16.9375rem;
   height: 6.8125rem;
 }
 .format-class p.thr {
   width: 15.3125rem;
-}
-.format-class .content {
-  display: flex;
-  flex-direction: row;
-  gap: 7.5rem;
 }
 
 @media screen and (min-width: 991px) and (max-width: 1280px) {
@@ -65,6 +69,7 @@
   .format-class h3.h3-width {
     width: 7.7464rem;
   }
+
   .format-class p {
     width: 12.5625rem;
     height: 1.375rem;
@@ -116,17 +121,12 @@
     margin-bottom: 4.5625rem;
   }
   .format-class h2 {
-    width: 19.4252rem;
-    height: 2.7084rem;
     font-size: 1.8125rem;
   }
   .format-class h3 {
-    width: 4.3685rem;
-    height: 1.1358rem;
     font-size: 0.8438rem;
   }
   .format-class h3.h3-width {
-    width: 7.7464rem;
   }
   .format-class p {
     width: 9.5625rem;
@@ -141,7 +141,7 @@
     width: 9.8685rem;
   }
   .format-class .content {
-    gap: 1.25rem;
+    gap: 2rem;
   }
 }
 @media screen and (min-width: 375px) and (max-width: 430px) {

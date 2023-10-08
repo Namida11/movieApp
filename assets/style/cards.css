@@ -2,6 +2,7 @@
 
 .card-section {
   transform: translateX(3%);
+  padding-top: 110px;
 }
 
 .card {
@@ -154,7 +155,7 @@
     padding-top: 0.9375rem;
   }
 
-  .wrapper {
+  .card-section .wrapper {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 7.5625rem;
@@ -193,13 +194,8 @@
     padding-top: 0px;
   }
 
-  .bottom-right img {
-    padding: 10px 0;
-    width: 20px;
-  }
-
   .box-bottom {
-    padding-top: 0;
+    padding-top: 10px;
   }
 
   .card-section .wrapper {
@@ -221,12 +217,30 @@
 
   .bottom-left {
     padding: 0;
-    width: 80px;
+    width: 60px;
+    height: 60px;
     transform: translateX(-10%);
     transform: translateY(-20%);
   }
   .card {
     width: 100%;
+  }
+  .box .box-top p {
+    font-size: 11px;
+    padding: 19px 20px 5px;
+  }
+  .bottom-right h2 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+
+  .bottom-right img {
+    width: 14px;
+    height: 17px;
   }
 }
 
@@ -278,7 +292,7 @@
   }
 
   .bottom-right h2 {
-    font-size: 16px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 700;
     line-height: 101.385%;
@@ -291,7 +305,8 @@
   }
 
   .bottom-right img {
-    padding: 10px 0;
+    width: 14px;
+    height: 17px;
   }
 
   .bottom-left img {
@@ -300,13 +315,18 @@
 
   .bottom-left {
     padding: 10px 0;
-    width: 120px;
+    width: 70px;
+    height: 70px;
     transform: translateX(-10%);
     transform: translateY(-20%);
   }
 
   .box-bottom {
     padding-top: 10px;
+  }
+  .box .box-top p {
+    font-size: 11px;
+    padding: 19px 20px 5px;
   }
 }
 
@@ -355,7 +375,7 @@
   }
 
   .bottom-right h2 {
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 101.385%;
@@ -364,11 +384,14 @@
   }
   .review-section .box .box-top p {
     max-width: 400px;
-    font-size: 15px;
+    font-size: 14px;
+    padding: 26px 29px 7px;
   }
 
   .bottom-right img {
-    padding: 10px 0;
+    padding: 0;
+    width: 24px;
+    height: 23px;
   }
 
   .bottom-left {
@@ -377,10 +400,6 @@
   }
   .bottom-left img {
     width: 100%;
-  }
-
-  .box-bottom {
-    padding-top: 10px;
   }
 }
 
@@ -450,9 +469,9 @@
     width: 120px;
   }
 
-  .box-bottom {
+  /* .box-bottom {
     padding-top: 10px;
-  }
+  } */
 }
 
 @media screen and (min-width: 991px) and (max-width: 1280px) {
@@ -470,6 +489,7 @@
   .card-section {
     transform: translateX(0%);
     padding-left: 25px;
+    padding-top: 110px;
   }
 
   .card-bottom p {

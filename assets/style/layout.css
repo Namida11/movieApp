@@ -79,7 +79,7 @@
   height: 7.0625rem;
   color: #fff;
   text-align: left;
-  font-family: Roboto Slab !important;
+  font-family: Roboto;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -141,7 +141,7 @@
   }
   .program-content p {
     font-size: 16px;
-    max-width: 25.875rem;
+
     padding: 14px 0;
   }
   .program-image {
@@ -156,17 +156,20 @@
     margin-top: 50px;
     padding-bottom: 4.6875rem;
   }
-
+  .note-wrapper {
+    padding: 15px 21px;
+  }
   .note-text #text {
     max-width: 384px;
     font-size: 18px;
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto";
   }
   #author {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     padding: 0px;
     margin-top: 0px;
+    font-family: "Roboto";
   }
 }
 /*planset --- figmadaki olcuye uygun 768-991*/
@@ -175,7 +178,8 @@
   .course-program .container {
     width: 85%;
   }
-  .logo img {
+
+  .header .logo img {
     width: 64.867px;
     height: 38.225px;
   }
@@ -212,11 +216,11 @@
     height: 206.183px;
   }
   .note-wrapper {
-    padding: 12px 22px 20px;
+    padding: 10px 17px;
   }
   .note-section {
     margin-top: 44px;
-    padding-bottom: 0rem;
+    padding-bottom: 100px;
   }
   .note-text #text {
     max-width: 280px;
@@ -225,6 +229,8 @@
     height: 5.0625rem;
   }
   #author {
+    margin: 0;
+    padding: 0;
     font-size: 10px;
   }
 }
@@ -238,7 +244,7 @@
   .note-section .container {
     width: 85%;
   }
-  .logo img {
+  .header .logo img {
     width: 52.189px;
     height: 30.754px;
   }
@@ -261,6 +267,7 @@
   }
   .program-content p {
     font-size: 10px;
+    max-width: 15rem;
   }
 
   .course-program .box span {
@@ -275,11 +282,10 @@
     justify-content: start;
   } */
   .note-wrapper {
-    padding: 9px 14px 8px;
+    padding: 10px 17px;
   }
-
   .note-text #text {
-    max-width: 219px;
+    max-width: 220px;
     height: 70px;
     font-size: 11px;
     line-height: 130%;
@@ -287,10 +293,19 @@
   }
   #author {
     font-size: 10px;
+    margin: 0;
+    padding: 0;
   }
 }
 
 @media (max-width: 430px) {
+  .header .logo img {
+    width: 53px;
+    height: 31px;
+  }
+  .course-program .course-program-top {
+    gap: 20px;
+  }
   .course-program .course-program-top i {
     font-size: 8px;
   }
@@ -300,22 +315,53 @@
     gap: 3px;
   }
   .program-content h1 {
-    width: 363.717px;
+    width: 292px;
+    font-size: 37px;
   }
   .course-program .wrapper {
     flex-direction: column;
+    width: 100%;
   }
   .program-image {
     display: flex;
     width: 100%;
     justify-content: flex-end !important;
   }
+  .course-program .box span {
+    font-size: 10px;
+  }
+  .note-text #text {
+    font-size: 11px;
+
+    height: 67px;
+    max-width: 200px;
+    line-height: 130%; /* 14.3px */
+  }
+  #author {
+    margin-top: 0;
+    font-size: 10px;
+    padding: 0;
+    font-weight: 300;
+  }
+  .program-image img {
+    width: 141px;
+    height: 165px;
+  }
   .program-content p {
-    max-width: 212px;
+    max-width: 200px;
     font-size: 10px;
   }
   .note-section .container {
     justify-content: start;
+  }
+  .note-section {
+    margin-top: 30px;
+  }
+  .note-wrapper {
+    padding: 10px 18px !important;
+  }
+  .note-text {
+    font-family: "Roboto";
   }
 }
 /* @media (min-width: 320px) and (max-width: 374px) {

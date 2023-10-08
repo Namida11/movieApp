@@ -1,7 +1,7 @@
 @import url("../css/global/font.css");
-.features {
+/* .features {
   padding-bottom: 8rem;
-}
+} */
 .features ul {
   list-style: disc;
   width: 36.375rem;
@@ -37,7 +37,7 @@
   .features h2 {
     width: 24.144rem;
     height: 3.29168rem;
-    font-size: 3.125rem;
+    font-size: 2.5625rem;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -57,12 +57,12 @@
   }
 }
 @media screen and (min-width: 430px) and (max-width: 768px) {
-  .features {
+  /* .features {
     margin-bottom: 7.1875rem;
-  }
+  } */
   .features ul {
-    width: 26.6875rem;
-    height: 10.875rem;
+    width: 24rem;
+
     font-size: 1.0625rem;
     margin-left: 0.6156rem;
   }
@@ -74,7 +74,7 @@
 }
 @media screen and (min-width: 375px) and (max-width: 430px) {
   .features {
-    margin-bottom: 5.9375rem;
+    padding-bottom: 6rem;
   }
   .features ul {
     width: 21.6875rem;
@@ -90,7 +90,7 @@
 }
 @media screen and (min-width: 320px) and (max-width: 375px) {
   .features {
-    margin-bottom: 5.3125rem;
+    padding-bottom: 4.5rem;
   }
   .features ul {
     width: 18.6875rem;
