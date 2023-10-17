@@ -48,6 +48,10 @@
   /* height: 10.375rem; */
   padding-top: 10px;
 }
+.card-bottom .cart-details{
+  padding-top: 10px;
+  
+} 
 
 .card-bottom h2 {
   font-weight: 700;
@@ -61,7 +65,7 @@
   font-weight: 400;
   font-size: 17px;
   padding-left: 19px;
-  padding-top: 20px;
+  padding-top: 7px;
 }
 
 /* REVIEW SECTION START */
@@ -152,7 +156,7 @@
   .card-bottom p {
     font-size: 13px;
     padding-left: 0.8125rem;
-    padding-top: 0.9375rem;
+    
   }
 
   .card-section .wrapper {
@@ -267,7 +271,7 @@
   .card-bottom p {
     font-size: 16px;
     padding-left: 0.8125rem;
-    padding-top: 0.9375rem;
+  
   }
 
   .review-section h1 {
@@ -494,7 +498,7 @@
 
   .card-bottom p {
     font-size: 14px;
-    padding-top: 10px;
+    
     padding-left: 13px;
   }
 
